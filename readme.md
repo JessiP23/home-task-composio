@@ -28,9 +28,10 @@ the final submission should be a visualized dependency graph where i can see con
 2. run `COMPOSIO_API_KEY=PUT_YOUR_KEY_HERE sh scaffold.sh` will give you an **openrouter-key**
 3. check `src/index.ts` to see how to fetch full google raw tools (fastest way to run is https://bun.sh/)
 
-you can implement this with whatever language you want, feel free to use language models and coding tools
+### visualize
 
-## submit
+After a successful run, open **`graph.html`** in a browser (double‑click is enough: graph data is inlined). Blue nodes ≈ Google Super, purple ≈ GitHub. Only tools that appear on at least one edge are drawn so the view stays readable.
+
 
 once you are done use `sh upload.sh <your_email> [--skip-session]`
 
